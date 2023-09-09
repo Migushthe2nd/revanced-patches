@@ -1,3 +1,46 @@
+# [2.191.0-dev.1](https://github.com/Migushthe2nd/revanced-patches/compare/v2.190.0...v2.191.0-dev.1) (2023-09-09)
+
+
+### Bug Fixes
+
+* **Infinity for Reddit - Spoof client:** Constrain patch to last working versions ([#2944](https://github.com/Migushthe2nd/revanced-patches/issues/2944)) ([ee975de](https://github.com/Migushthe2nd/revanced-patches/commit/ee975dea846c77af0efe608e647075f4055af320))
+* **Twitch - Audio ads:** Support missing version `16.1.0` ([#2928](https://github.com/Migushthe2nd/revanced-patches/issues/2928)) ([688d8fa](https://github.com/Migushthe2nd/revanced-patches/commit/688d8fa7e86862e03d8336af5f6cb207c4b72593))
+* **YouTube - Custom filter:** Use new lines between components instead of commas ([#2952](https://github.com/Migushthe2nd/revanced-patches/issues/2952)) ([ecb2e32](https://github.com/Migushthe2nd/revanced-patches/commit/ecb2e32b1e296590d150bdd3f8bea2665b19a84d))
+* **YouTube - Hide layout components:** Always hide redundant 'player audio track' button ([#2951](https://github.com/Migushthe2nd/revanced-patches/issues/2951)) ([ca632bd](https://github.com/Migushthe2nd/revanced-patches/commit/ca632bd2cc74f0ce5ccb948e902445de3ab893cf))
+
+
+### Features
+
+* **Marktplaats:** Add ads patch ([d4eb237](https://github.com/Migushthe2nd/revanced-patches/commit/d4eb2372f72fed0b4ee89a1a6a67f3cab48a8be2))
+
+## [2.190.1-dev.4](https://github.com/ReVanced/revanced-patches/compare/v2.190.1-dev.3...v2.190.1-dev.4) (2023-09-07)
+
+
+### Bug Fixes
+
+* **YouTube - Custom filter:** Use new lines between components instead of commas ([#2952](https://github.com/ReVanced/revanced-patches/issues/2952)) ([ecb2e32](https://github.com/ReVanced/revanced-patches/commit/ecb2e32b1e296590d150bdd3f8bea2665b19a84d))
+
+## [2.190.1-dev.3](https://github.com/ReVanced/revanced-patches/compare/v2.190.1-dev.2...v2.190.1-dev.3) (2023-09-07)
+
+
+### Bug Fixes
+
+* **Infinity for Reddit - Spoof client:** Constrain patch to last working versions ([#2944](https://github.com/ReVanced/revanced-patches/issues/2944)) ([ee975de](https://github.com/ReVanced/revanced-patches/commit/ee975dea846c77af0efe608e647075f4055af320))
+
+## [2.190.1-dev.2](https://github.com/ReVanced/revanced-patches/compare/v2.190.1-dev.1...v2.190.1-dev.2) (2023-09-07)
+
+
+### Bug Fixes
+
+* **YouTube - Hide layout components:** Always hide redundant 'player audio track' button ([#2951](https://github.com/ReVanced/revanced-patches/issues/2951)) ([ca632bd](https://github.com/ReVanced/revanced-patches/commit/ca632bd2cc74f0ce5ccb948e902445de3ab893cf))
+
+## [2.190.1-dev.1](https://github.com/ReVanced/revanced-patches/compare/v2.190.0...v2.190.1-dev.1) (2023-09-03)
+
+
+### Bug Fixes
+
+* **Twitch - Audio ads:** Support missing version `16.1.0` ([#2928](https://github.com/ReVanced/revanced-patches/issues/2928)) ([688d8fa](https://github.com/ReVanced/revanced-patches/commit/688d8fa7e86862e03d8336af5f6cb207c4b72593))
+
 # [2.190.0](https://github.com/ReVanced/revanced-patches/compare/v2.189.0...v2.190.0) (2023-09-03)
 
 

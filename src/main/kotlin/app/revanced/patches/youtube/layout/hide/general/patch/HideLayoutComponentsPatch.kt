@@ -11,6 +11,7 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.util.smali.ExternalLabel
+import app.revanced.patches.shared.settings.preference.impl.InputType
 import app.revanced.patches.shared.settings.preference.impl.StringResource
 import app.revanced.patches.shared.settings.preference.impl.SwitchPreference
 import app.revanced.patches.shared.settings.preference.impl.TextPreference
@@ -186,12 +187,6 @@ class HideLayoutComponentsPatch : BytecodePatch(
                 StringResource("revanced_hide_image_shelf_summary_off", "Image shelf is shown")
             ),
             SwitchPreference(
-                "revanced_hide_audio_track_button",
-                StringResource("revanced_hide_audio_track_button_title", "Hide audio track button"),
-                StringResource("revanced_hide_audio_track_button_on", "Audio track button is hidden"),
-                StringResource("revanced_hide_audio_track_button_off", "Audio track button is shown")
-            ),
-            SwitchPreference(
                 "revanced_hide_latest_posts_ads",
                 StringResource("revanced_hide_latest_posts_ads_title", "Hide latest posts"),
                 StringResource("revanced_hide_latest_posts_ads_summary_on", "Latest posts are hidden"),
@@ -240,8 +235,9 @@ class HideLayoutComponentsPatch : BytecodePatch(
                         StringResource("revanced_custom_filter_strings_title", "Custom filter"),
                         StringResource(
                             "revanced_custom_filter_strings_summary",
-                            "Filter components by their name separated by a comma"
-                        )
+                            "List of components to filter separated by new line"
+                        ),
+                        inputType = InputType.TEXT_MULTI_LINE
                     )
                 )
             )
